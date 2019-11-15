@@ -26,3 +26,10 @@ cursor1.execute(sql)
 for row in cursor1.fetchall():
     print(row)
     print("name:" + str(row['name']))
+print('\n')
+
+sql1 = 'select count(*) count from t_coupon_batch_info'
+cursor2 = connection.cursor(pymysql.cursors.DictCursor)  # 字典
+cursor2.execute(sql1)
+result = cursor2.fetchone()
+print('数量：'+str(result['count']))
