@@ -1,6 +1,20 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 
+s = "abcdef"
+s1 = 'abcdef'
+print("s1:" + s1)  # ''和""都可以用来标识字符串
+print(s[1:3])  # 返回bc，类似java的substring(start,end)，正数是从左向右，起点是0，负数是从右向左，起点是-1
+print(s[-3:-1])  # 返回de
+print(s[1:])  # 返回bcdef
+print(s[1])  # 返回bcdef
+print(s * 2)  # 星号（*）是重复操作
+print(s + "ss")  # 加号（+）是连接操作
+print('''ddd
+bbb
+ccc''')  # 多行可以用'''括起来
+print(r'\t')  # r''括起来的字符串默认不转义
+
 print("i am %d" % 20)
 print("i %s %d" % ('am', 20))
 a = 'am'
