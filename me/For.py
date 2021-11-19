@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # for循环可以遍历任何序列的项目，如一个列表或者一个字符串
 
