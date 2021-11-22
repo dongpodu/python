@@ -17,6 +17,7 @@ def m2(x, y=2, z="name"):  # y默认等于1，外部调用时可以不传n参数
     print("x is %s" % x)
     print("y is %s" % y)
     print("z is %s" % z)
+    print('***************')
 
 
 m2(3)
