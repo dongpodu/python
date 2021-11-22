@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
-from defMethod import my_abs
-from defMethod import m1
-from defMethod import returnMutiValue
+from DefMethod import my_abs
+from DefMethod import m1
+from DefMethod import returnMutiValue
 
 print(str(1))
 print(bool(1))
